@@ -1,2 +1,20 @@
 include src/nexfil/metadata.json
 include src/nexfil/url_store.json
+$ nexfil --help
+usage: nexfil [-h] [-u U] [-f F] [-l L] [-t T] [-v] [-U] [-pm PM] [-proto PROTO] [-ph PH] [-pp PP]
+
+nexfil - Find social media profiles on the web | v1.0.5
+
+options:
+  -h, --help    show this help message and exit
+  -u U          Specify username
+  -f F          Specify a file containing username list
+  -l L          Specify multiple comma separated usernames
+  -t T          Specify timeout [Default : 10]
+  -v            Prints version
+  -U            Check for Updates
+  -pm PM        Proxy mode [Available : single, file] [Default : single]
+  -proto PROTO  Proxy protocol [Available : http, https] [Default : http]
+  -ph PH        Proxy Hostname
+  -pp PP        Proxy port -U          Check for Updates
+  nexfil -Resh499
